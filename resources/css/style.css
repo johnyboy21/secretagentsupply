@@ -129,3 +129,129 @@ footer {
   text-align: left;
   padding: 5em 0;
 }
+
+/* Media Queries for 1024px */
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .tablet-container {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .tablet-container li {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .glasses {
+    display: none;
+  }
+}
+
+/* Media Queries for 470px */
+
+@media only screen and (max-width: 470px) {
+  .logo span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .content {
+    padding: 1rem 2rem;
+    top: 10rem;
+    width: 18.2rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .content h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .content h4 {
+    font-size: 0.77rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .watch {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .products {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .product {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .company-info {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .info {
+    width: 90%;
+    margin-bottom: 0.5rem;
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .info .title {
+    margin-bottom: 0.25rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
+}
